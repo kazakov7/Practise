@@ -40,6 +40,5 @@ print("≈≈≈≈≈≈ Boolean ≈≈≈≈≈≈≈")
 
 test_falsy = "" or False or None or 0
 print("test_falsy:", bool(test_falsy))
-
 test_truthy = "MIT"
 print("test_truthy:", bool(test_truthy))
