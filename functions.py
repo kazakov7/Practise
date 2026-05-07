@@ -12,18 +12,35 @@ print("≈≈≈ Deifne (parametr) vs Call (arguemnt) ≈≈≈≈")
 # Define (parametr)
 
 
-def greet(a):
-    print("How are you,", a)
+# def greet(a):
+#     print("How are you,", a)
 
 
-def greeting(b):
-    print("How are you,", b)
-    return f"Hi {b}"
+# def greeting(b):
+#     print("How are you,", b)
+#     return f"Hi {b}"
 
 
-# CALL - argument
-result1 = greet('Martin')
-print("result1:", result1)
+# # CALL - argument
+# result1 = greet('Martin')
+# print("result1:", result1)
 
-result2 = greeting("Justin")
-print("result2:", result2)
+# result2 = greeting("Justin")
+# print("result2:", result2)
+
+print("≈≈≈ Keyword & default arguments ≈≈≈≈≈≈")
+# Define
+
+
+def give_greet(name, age=22):
+    print("Executed give_greet function")
+    return f"Hi {name}, you are {age} years old"
+
+
+# call
+result3 = give_greet(name='Justin', age=23)
+print("result1:", result3)
+
+# call
+result3 = give_greet(name='John')
+print("result1:", result3)
