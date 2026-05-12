@@ -1,7 +1,7 @@
 '''CLASS DEEP DIVING
     (1)Encapsulation
     (2)Enheritence <
-    (2)Polymorphism <
+    (2)Polimorphism <
 '''
 
 
@@ -32,6 +32,9 @@ class Dog(Animal):  # child
 
     def protect(self):
         print("Yes, I can protect you!")
+
+    def make_voice(self):
+        print(f"The {self.name} says: {self.sound}")
 
 
 class Cat(Animal):  # child
@@ -77,3 +80,19 @@ print(dog.voice)
 
 print(dog.status)
 print(cat.status)
+
+print("========= Polimorphism =========")
+dog.make_voice()
+fish.make_voice()
+print("-------")
+# fish>Fish>Animal>object
+a = isinstance(fish, Fish)
+b = isinstance(fish, Animal)
+c = isinstance(fish, object)
+d = isinstance("MIT", object)
+result = a and b and c and d
+print("result:", result)
+# fish>Animal>object
+data = issubclass(Fish, Animal)
+data2 = issubclass(Animal, object)
+print("result: ", data, data2)
