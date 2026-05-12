@@ -1,9 +1,7 @@
 '''CLASS
 (1)What is class?
 (2)ordinary vs static properties
-(3)special/magic methods
-
-'''
+(3)special/magic methods'''
 # class> blueprint for object classes
 # structure? state,constructor,method
 
