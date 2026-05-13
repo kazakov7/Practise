@@ -23,7 +23,14 @@ git pull origin master
 - Primitive variables
 - function
 - Object
-- class deep dive
+- class about
+- class deep dive encapsulation
+- class deep dive inheritence & polymorphism
 - operation & conditions
 - Loops
+- Tuple
+- List
+- Array
+- Comprehension
+- Debugging
 - ...
