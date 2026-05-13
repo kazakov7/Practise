@@ -46,3 +46,15 @@ calc(3, 4, 5)
 calc(4, 6, 2000)
 calc(5, 3, 4, 5, 45, 454, 45, 2)
 calc(0)
+
+print("==========")
+# kwargs> dictionary
+
+
+def introduce(**kvargs):
+    print(f"the type kvargs value: {type(kvargs)}")
+    print(f'Hi, I am {kvargs['name']} and I am {kvargs['year']} years old!')
+
+
+introduce(name='John', year=25)
+introduce(name="Shawn", year=30, single=True)
