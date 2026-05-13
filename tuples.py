@@ -68,3 +68,11 @@ def greeting(*args, **kvargs):
 
 
 greeting("HI", True, None, name="Kevin", nationaality="Uzbek")
+
+print("ZIP")
+tuple1 = ["a", "b", "c", "d"]
+tuple2 = [1, 2, 3, 4, 5]
+zipped = zip(tuple1, tuple2)
+
+result = dict(zipped)
+print(result)
