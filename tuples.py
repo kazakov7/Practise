@@ -58,3 +58,13 @@ def introduce(**kvargs):
 
 introduce(name='John', year=25)
 introduce(name="Shawn", year=30, single=True)
+
+print("==========")
+
+
+def greeting(*args, **kvargs):
+    print('The args value> ', args)
+    print("the kvargs value>", kvargs)
+
+
+greeting("HI", True, None, name="Kevin", nationaality="Uzbek")
