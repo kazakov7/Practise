@@ -113,6 +113,7 @@
 
 # print(majority([2, 2]))
 
+# print("====== To-Do list =======")
 def addTask():
     while True:
         print("Bosh menuga qaytish uchun 0 ni kiriting!\n")
@@ -171,13 +172,12 @@ def updateTask():
         print("Iltimos,faqat raqam kiriting!")
 
 
-# print("====== To-Do list =======")
 rejalar = []
 while True:
     print("""
     (1) Reja qo'shish
     (2)Rejani ko'rish
-    (3)Rejani o'shirish
+    (3)Rejani o'chirish
     (4)Rejani yangilash
     (5)Chiqish
     """)
