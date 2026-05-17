@@ -32,5 +32,14 @@ git pull origin master
 - List
 - Array
 - Comprehension
-- Debugging
-- ...
+- Packages & Debugging
+
+## pip commands
+
+```
+pip list
+pip install
+pip uninstall
+pip show
+pip freeze (>requirements.txt)
+```
