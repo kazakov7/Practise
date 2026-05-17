@@ -3,6 +3,7 @@
     (2)Package menejer & extarnal package
     (3)Debugging
 '''
+from PIL import Image
 # import turtle
 # t = turtle.Turtle()
 
@@ -22,3 +23,12 @@ with open("material/message.txt", "r") as your_file:
     content = your_file.read()
     print("your file:", content)
 print("DONE")
+
+
+print("===== Package Manager & External Package =====")
+''' Package Managers: pip pipenv npm yarn composer brew'''
+# External Package > https://pypi.org/
+with Image.open("material/my.jpg") as img_obj:
+    resized_img = img_obj. resize((200, 200))
+    resized_img.show()
+    resized_img.save("material/sample.png")
